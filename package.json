@@ -3,19 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "node server.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-
-  "engines": {
-    "node": "20.x"
-  },
-
   "dependencies": {
     "@react-oauth/google": "^0.12.2",
     "axios": "^1.13.2",
@@ -45,7 +38,6 @@
     "react-router-dom": "^7.10.1",
     "sequelize": "^6.37.7"
   },
-
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
@@ -63,17 +55,9 @@
     "tailwindcss": "^3.4.18",
     "vite": "^7.2.4"
   },
-
   "description": "backend cafe",
   "main": "server.js",
-
-  "keywords": [
-    "fullstack",
-    "nodejs",
-    "express",
-    "cafe"
-  ],
-
+  "keywords": ["fullstack", "nodejs", "express", "cafe"],
   "author": "Dat",
   "license": "ISC"
 }
