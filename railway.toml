@@ -4,3 +4,6 @@ buildCommand = "npm install && npm run build"
 
 [deploy]
 startCommand = "node backend/server.js"
+
+[variables]
+NIXPACKS_NODE_VERSION = "22"
